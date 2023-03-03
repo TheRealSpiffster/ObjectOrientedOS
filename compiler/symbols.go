@@ -1,0 +1,36 @@
+package main
+
+type Symbol int32
+
+const (
+	// scanner symbols
+	COMMENT Symbol = iota
+	QUOTE
+	SPACE
+	NUMBER
+	ANYWORD
+	DIVIDE
+	STAR
+	PLUS
+	MINUS
+	EQUALS
+	AMP
+	BANG
+	TILDE
+	DOT
+	COMMA
+	LESSTHAN
+	GREATERTHAN
+	COLON
+	SEMICOLON
+	LPAREN
+	RPAREN
+	LBOX
+	RBOX
+	LSQUIG
+	RSQUIG
+	PERCENT
+	CARAT
+	// parsing symbols
+
+)
